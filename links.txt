@@ -1,0 +1,5 @@
+file:///C:/xampp/htdocs/gasparbelandria/index.html
+https://famo.us/integrations/angular/#/3
+http://www.ibm.com/developerworks/cloud/library/cl-bluemix-famous-mobile/
+http://strangemilk.com/famous-and-angular-beautiful-animations/
+http://www.linkplugapp.com/a/1476110#http://blog.mimacom.com/introduction-to-react-and-flux/
