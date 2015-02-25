@@ -18,6 +18,7 @@ angular.module('myApp', ['famous.angular'])
         RenderNode,
         RenderController,
         HeaderFooterLayout,
+        EventHandler,
         mainContext,
         background,
         content = [],
@@ -28,6 +29,7 @@ angular.module('myApp', ['famous.angular'])
         grid,
         controller,
         gridModifier,
+        eventHandler,
         data = {};
 
     function fnData(json){
@@ -47,7 +49,7 @@ angular.module('myApp', ['famous.angular'])
       $http.get(endpoint).success(function(data, status, headers, config) {
         deferred.resolve(data.contentItem);
       }).error(function(data, status, headers, config) {
-        deferred.resolve(err);
+        deferred.resolve(status);
       });
       return deferred.promise;
     }
@@ -126,7 +128,17 @@ angular.module('myApp', ['famous.angular'])
 
       surfaces.push(surface);
 
-      surface.on('click', function(context, e) {
+      /*
+      surface.on('click', function() {
+        eventHandler.emit('showHide');
+      });
+
+      surface.on('touchend', function() {
+        eventHandler.emit('showHide');
+      });
+      */
+
+      surface.on('click', function(context, e) { //eventHandler.on
         if (this === showing) {
           // close
           if ((e.target.attributes.length===4) && (e.target.attributes[1].value==='close')){
@@ -174,6 +186,7 @@ angular.module('myApp', ['famous.angular'])
       RenderNode = famous.core.RenderNode;
       RenderController = famous.views.RenderController;
       HeaderFooterLayout = famous.views.HeaderFooterLayout;
+      EventHandler = famous.core.EventHandler;
       Transitionable.registerMethod('spring', SpringTransition);
 
       // promise chained
@@ -242,6 +255,8 @@ angular.module('myApp', ['famous.angular'])
     $scope.config = function() {
       mainContext = Engine.createContext();
 
+      eventHandler = new EventHandler();
+
       var grid = new GridLayout({
         dimensions: [3, 3],
       });
@@ -279,3 +294,19 @@ angular.module('myApp', ['famous.angular'])
     };
 
   }]);
+
+/*
+click
+mousedown
+mousemove
+mouseup
+mouseover
+mouseout
+touchstart
+touchmove
+touchend
+touchcancel
+keydown
+keyup
+keypress
+*/

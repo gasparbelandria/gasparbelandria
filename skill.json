@@ -1,0 +1,44 @@
+[{
+    "backend": [{
+        "name": "node.js",
+        "database": "mondodb",
+        "orm": "sequelizejs"
+    },{
+        "name": "php",
+        "database": "mysql",
+        "orm": "notorm"
+    }]
+},{
+    "javascript frameworks": [
+      {"name": "angular.js"},
+      {"name": "backbone"}
+    ]
+},{
+    "javascript test frameworks": [
+		{
+		"name": "jasmine",
+		"feature": "BDD",
+		"side": "frontend"
+		},{
+		"name": "mocha",
+		"feature": "TDD",
+		"side": "backend"
+		}
+    ]
+},{
+    "libraries": [
+      {"name": "jquery"},
+      {"name": "famo.us"},
+      {"name": "d3.js"},
+      {"name": "easel.js"},
+      {"name": "howler.js"}
+    ]
+},{
+    "obviously": [
+      {"name": "html5"},
+      {"name": "css3"},
+      {"name": "git"},
+      {"name": "jira + sprint jira"},
+      {"name": "scrum"}
+    ]
+}]

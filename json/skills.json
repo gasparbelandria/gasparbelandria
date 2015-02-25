@@ -1,5 +1,5 @@
 {
 
-    "contentItem": "<div class=\"content\">Profile<br /><div class=\"textContent\">skills</div></div>"
+    "contentItem": "<div class=\"header\"><div class=\"title\"><img height=\"50\" src=\"assets/img/png/control2.png\"width=\"50\"></div><div class=\"close\"><img height=\"50\" id=\"close\" src=\"assets/img/png/arrow145.png\" width=\"50\"></div></div><div class=\"content\" id=\"style-4\"><div class=\"textContent\">{\"backend\": [<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\"name\": \"node.js\"},<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\"name\": \"php\"}<br />&nbsp;&nbsp;&nbsp;]},<br />{\"frameworks\": [<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\"name\": \"angular.js\"},<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\"name\": \"backbone.js\"}<br />]}<br /><a href=\"http://jsonviewer.stack.hu/#http://gasparbelandria.com/skill.json\" target=\"blank\">See complete list of skills</a></div></div>"
 
 }

@@ -1,5 +1,5 @@
 {
 
-    "contentItem": "<div class=\"content\">Profile<br /><div class=\"textContent\">adad</div></div>"
+    "contentItem": "<div class=\"header\"><div class=\"title\"><img src=\"assets/img/png/human6.png\" width=\"50\" height=\"50\" /></div><div class=\"close\"><img src=\"assets/img/png/arrow145.png\" id=\"close\" width=\"50\" height=\"50\" /></div></div><div id=\"style-4\" class=\"content\"><fa-scroll-view>Gaspar Belandria<br />Arlington, MA<br /><a href=\"https://www.linkedin.com/in/gasparbelandria\">Linkedin</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"https://www.twitter.com/gasparbelandria\">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"https://github.com/gasparbelandria\">Github</a><div class=\"textContent\">I am a web developer at Syrinx Consulting -  a consulting company focused on delivery of software engineering talent. Also, I am a Javascript passionate, working with mean.js (mongodb, express, angular, nodejs), I ♥ backbone.js and as you can see I like do rubik cube.</div></div>"
 
 }
