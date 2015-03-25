@@ -1,4 +1,4 @@
 {
 
-    "contentItem": "<div class=\"header\"><div class=\"title\"><img src=\"assets/img/png/human6.png\" width=\"50\" height=\"50\" /></div><div class=\"close\"><img src=\"assets/img/png/arrow145.png\" id=\"close\" width=\"50\" height=\"50\" /></div></div><div class=\"content\">CONTACT<br /><div class=\"textContent\">CONTACT</div></div>"
+    "contentItem": "<div class=\"header\"><div class=\"icon\"><img height=\"50\" src=\"assets/img/png/email13.png\" width=\"50\"><div class=\"title\">Contact</div></div><div class=\"close\"><img height=\"50\" id=\"close\" src=\"assets/img/png/arrow145.png\" width=\"50\"></div></div><div id=\"style-4\" class=\"content\"><br /><br />You can try to call me at <a href=\"tel:+17815028154\">781-502-8154</a>, if I do not respond, send me an <a href=\"mailto:fdirinot@gmail.com\">email</a><div class=\"textContent\"></div></div>"
 }

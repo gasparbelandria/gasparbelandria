@@ -139,31 +139,37 @@ angular.module('myApp', ['famous.angular'])
       */
 
       surface.on('click', function(context, e) { //eventHandler.on
-        if (this === showing) {
-          // close
-          if ((e.target.attributes.length===4) && (e.target.attributes[1].value==='close')){
-            controller.hide({ curve:Easing.inElastic, duration: 1000 }, function(){
-              gridModifier.setTransform(Transform.scale(1,1,1), 
-              { curve:Easing.outElastic, duration: 1000 });
-            });
-            showing = null;
-            surfaces[id].setContent(icon[id]);
+        
+        if (id===6){
+          window.open("http://www.backboneros.com", "_blank");
+        }else{
+          if (this === showing) {
+            // close
+            if ((e.target.attributes.length===4) && (e.target.attributes[1].value==='close')){
+              controller.hide({ curve:Easing.inElastic, duration: 1000 }, function(){
+                gridModifier.setTransform(Transform.scale(1,1,1), 
+                { curve:Easing.outElastic, duration: 1000 });
+              });
+              showing = null;
+              surfaces[id].setContent(icon[id]);
+            }
+          } else {
+            // open
+            surfaces[id].setContent(content[id]);
+            showing = this;
+            gridModifier.setTransform(
+              Transform.scale(0.001, 0.001, 0.001),
+              { curve:Easing.outCurve, duration: 300 }
+            );
+            cmod.setTransform(
+              Transform.translate(0, 0, 0.0001)
+            );
+            controller.show(
+              this._rnode, 
+              {  curve:Easing.outElastic, duration: 2400 }
+            );
           }
-        } else {
-          // open
-          surfaces[id].setContent(content[id]);
-          showing = this;
-          gridModifier.setTransform(
-            Transform.scale(0.001, 0.001, 0.001),
-            { curve:Easing.outCurve, duration: 300 }
-          );
-          cmod.setTransform(
-            Transform.translate(0, 0, 0.0001)
-          );
-          controller.show(
-            this._rnode, 
-            {  curve:Easing.outElastic, duration: 2400 }
-          );
+
         }
 
       }.bind(surface, mainContext));
@@ -218,6 +224,7 @@ angular.module('myApp', ['famous.angular'])
                         getContact.then(function(contact) {
                           data.contact = contact;
                           console.log(data);
+                          // when all json are done, call config function
                           $scope.config();
                         }, function(err) {
                           console.log(err);

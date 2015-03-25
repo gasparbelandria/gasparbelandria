@@ -1,5 +1,5 @@
 {
 
-    "contentItem": "<div class=\"content\">CRM<br /><div class=\"textContent\">CRM</div></div>"
+    "contentItem": "<div class=\"header\"><div class=\"icon\"><img height=\"50\" src=\"assets/img/png/alarm5.png\" width=\"50\"><div class=\"title\">CRM</div></div><div class=\"close\"><img height=\"50\" id=\"close\" src=\"assets/img/png/arrow145.png\" width=\"50\"></div></div><div id=\"style-4\" class=\"content\"><div class=\"textContent\">I installed and created modules for VTiger and SalesForce, but my real skill is in creating custom CRM for each business.<br />I am currently developing a platform for Networkers.<br />Will be integrated at marketing platforms as SendGrid, Twitter, Facebook, Linkedin and other API's, sms messages, payment gateways, whatsapp, integration with outlook, gmail calendar, hang up, video calls, chat between partners.<br />I am using:<br /><strong>Backend</strong><ul><li>Node.js + express + socket.io + jade</li></ul><strong>Frontend</strong><ul><li>Angular + d3.js + famo.us + underscore</li></ul><strong>Database</strong><ul><li>Mongodb, Redit for caching.</li></ul><strong>Looking for a SASS or Less UI guy</strong></div></div>"
 
 }

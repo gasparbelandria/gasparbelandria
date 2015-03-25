@@ -1,5 +1,5 @@
 {
 
-    "contentItem": "<div class=\"content\">Ecommerce<br /><div class=\"textContent\">ecommerce</div></div>"
+    "contentItem": "<div class=\"header\"><div class=\"icon\"><img height=\"50\" src=\"assets/img/png/shopping23.png\" width=\"50\"><div class=\"title\">Ecommerce</div></div><div class=\"close\"><img height=\"50\" id=\"close\" src=\"assets/img/png/arrow145.png\" width=\"50\"></div></div><div id=\"style-4\" class=\"content\"><div class=\"textContent\">Payment platforms:<ul><li>Paypal</li><li>Authorize.net (certificate)</li><li>Stripe</li></ul>Shipping platforms:<ul><li>DHL</li><li>UPS</li><li>FEDEX</li></ul>Gateway to your Customers:<ul><li>NMI</li><li>AWS</li></ul></div></div>"
 
 }

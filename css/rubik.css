@@ -24,12 +24,18 @@ html {
 	overflow: auto;
 }
 
-.title {
+.icon {
 	float:left;
 	width:50%;
 	text-align:left;
 }
 
+.title {
+	font-weight: bold;
+	float: left;
+	border: 0px solid blue;
+	margin-left: 20px;
+}
 .close {
 	float:left;
 	width:50%;
@@ -48,16 +54,27 @@ html {
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	background-color: #F5F5F5;
+	opacity: 0.1;
 }
 
 #style-4::-webkit-scrollbar
 {
-	width: 10px;
+	width: 0px;
 	background-color: #F5F5F5;
+	opacity: 0.1;
 }
 
 #style-4::-webkit-scrollbar-thumb
 {
-	background-color: #000000;
-	border: 2px solid #555555;
+	background-color: #ccc;
+	border: 2px solid #ccc;
+	opacity: 0.1;
+}
+
+@media screen and (max-width: 300px) {
+	#style-4::-webkit-scrollbar{
+		width: 0px;
+		background-color: #F5F5F5;
+		opacity: 0.1;
+	}
 }

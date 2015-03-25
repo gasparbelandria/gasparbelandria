@@ -1,5 +1,5 @@
 {
 
-    "contentItem": "<div class=\"content\">LAB<br /><div class=\"textContent\">LAB</div></div>"
+    "contentItem": "<div class=\"header\"><div class=\"icon\"><img height=\"50\" src=\"assets/img/png/hot24.png\" width=\"50\"><div class=\"title\">Coffee</div></div><div class=\"close\"><img height=\"50\" id=\"close\" src=\"assets/img/png/arrow145.png\" width=\"50\"></div></div><div id=\"style-4\" class=\"content\"><div class=\"textContent\">When I am not programming, what are I doing? not in order of importance<ul><li>Codeschool</li><li>Rosettastone</li><li>Ethical Hacking</li><li>Cube Rubik</li><li>Deep Web</li><li>Aljebra</li></ul></div></div>"
 
 }

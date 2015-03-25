@@ -1,5 +1,8 @@
 {
 
-    "contentItem": "<div class=\"content\"><ibrary<br /><div class=\"textContent\">library</div></div>"
+    "contentItem": "<div class=\"header\"><div class=\"icon\"><img height=\"50\" src=\"assets/img/png/wrench6.png\" width=\"50\"><div class=\"title\">Tools</div></div><div class=\"close\"><img height=\"50\" id=\"close\" src=\"assets/img/png/arrow145.png\" width=\"50\"></div></div><div id=\"style-4\" class=\"content\"><div class=\"textContent\">I'm currently using much Mean.js, a kind of scaffolding for mongo.db, express, angular and node.js.<br />I work with Vagrant, a kind of development environment that connects to any virtual box is lightweight, easily reproducible and portable.<br />I use the Sublime text because I bought  the license, Brackets.io because it was created in javascript and has integrated JSLint, so I have not to wait for me Grunt indicate errors because the same editor informs me time and I just to install WebStorm, was recommended by my mentor, so I'll be trying.<br />I believe in things that are written, so appreciate when Jira or other project manager is used.<br />I feel more comfortable with ubuntu than fedora or centos.</div></div>"
 
 }
+
+
+
