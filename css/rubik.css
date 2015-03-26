@@ -59,7 +59,7 @@ html {
 
 #style-4::-webkit-scrollbar
 {
-	width: 0px;
+	width: 10px;
 	background-color: #F5F5F5;
 	opacity: 0.1;
 }
@@ -71,7 +71,23 @@ html {
 	opacity: 0.1;
 }
 
-@media screen and (max-width: 300px) {
+@media only screen and (min-device-width: 480px){ /*iphone*/
+	#style-4::-webkit-scrollbar{
+		width: 0px;
+		background-color: #F5F5F5;
+		opacity: 0.1;
+	}	
+}
+
+@media only screen and (min-device-width: 768px){ /*tablets and desktop*/
+	#style-4::-webkit-scrollbar{
+		width: 50px;
+		background-color: #F5F5F5;
+		opacity: 0.1;
+	}	
+}
+
+@media screen and (max-width: 300px) { /*others*/
 	#style-4::-webkit-scrollbar{
 		width: 0px;
 		background-color: #F5F5F5;
